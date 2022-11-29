@@ -118,7 +118,7 @@ public class UserTest {
     @Test
     @Order(4)
     void testShowUser() throws Exception {
-        //TestUtils.prepareUsers(mockMvc);
+        TestUtils.prepareUsers(mockMvc);
         Map<String, Map> usersData = testData.get("users");
         Map<String, String> existingUserData = usersData.get("existing");
         var token = TestUtils.login(mockMvc, existingUserData);

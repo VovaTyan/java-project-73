@@ -5,30 +5,87 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f87ba2cf-daf5-464b-8e96-a76fe9371381" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hexlet/code/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hexlet/code/utils/TestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/fixtures/testData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/fixtures/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/component/JWTHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/config/WebConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/config/rollbar/RollbarConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/config/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/dto/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/filter/JWTAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/filter/JWTAuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hexlet/code/AppApplicationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/db/changelog/changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/db/changelog/changelog-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootRunMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hexlet/code/AppApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hexlet/code/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/hexlet/code/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/bin/app" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/bin/app.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/app-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jackson-annotations-2.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jackson-core-2.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jackson-databind-2.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jackson-datatype-jdk8-2.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jackson-datatype-jsr310-2.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jackson-module-parameter-names-2.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jakarta.annotation-api-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jul-to-slf4j-2.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/log4j-api-2.19.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/log4j-to-slf4j-2.19.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/logback-classic-1.4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/logback-core-1.4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/micrometer-commons-1.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/micrometer-observation-1.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/slf4j-api-2.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/snakeyaml-1.33.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-aop-6.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-beans-6.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-autoconfigure-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-starter-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-starter-json-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-starter-logging-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-starter-tomcat-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-starter-web-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-context-6.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-core-6.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-expression-6.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-jcl-6.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-web-6.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-webmvc-6.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/tomcat-embed-core-10.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/tomcat-embed-el-10.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/tomcat-embed-websocket-10.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/app-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/app-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/hexlet.code.AppApplicationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/hexlet.code.UserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/hexlet.code.UserTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/hexlet.code.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/hexlet.code.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resolvedMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/app" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/app.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/app.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-hexlet.code.AppApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-hexlet.code.UserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-hexlet.code.UserTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changelog-master.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskManager.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/taskManager.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskManager.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/taskManager.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/AppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/AppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hexlet/code/AppApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hexlet/code/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hexlet/code/UserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +108,12 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="app" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -80,7 +142,7 @@
       <map>
         <entry key="com.haulmont.jpb.jpaInspector" value="true" />
         <entry key="com.haulmont.jpb.jpaPalette" value="true" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -95,18 +157,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/vova/hexletProject/java-spring-blog",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/vova/hexletProject/java-spring-blog&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/config" />
@@ -114,11 +176,11 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="gradle :build" />
       <command value="gradle :installDist" />
+      <command value="gradle :build" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.java-project-73 [:installDist]">
+  <component name="RunManager" selected="Gradle.java-project-73 [:build]">
     <configuration name="java-project-73 [:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
