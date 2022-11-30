@@ -15,7 +15,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 
 public class TestUtilsAction {
-
+    /*
     private static ObjectMapper mapper = new ObjectMapper();
 
     private static Path getFixturePath(String fileName) {
@@ -49,14 +49,14 @@ public class TestUtilsAction {
                 .andReturn()
                 .getResponse();
         var body = response.getContentAsString();
-        /*
+
         List<Map> users = mapper.readValue(body, List.class);
         var existingUser = users.stream()
                 .filter(user -> user.get("email").equals(email))
                 .findAny()
                 .get();
-*/
-        return 1;//(int) existingUser.get("id");
+
+        return (int) existingUser.get("id");
     }
 
     public static int getStatusIdByName(MockMvc mockMvc, String name, String token) throws Exception {
@@ -179,5 +179,6 @@ public class TestUtilsAction {
 
         return mapper.readValue(body, Map.class);
     }
+    */
 }
 
