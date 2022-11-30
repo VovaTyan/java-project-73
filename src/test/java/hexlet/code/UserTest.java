@@ -1,33 +1,19 @@
 package hexlet.code;
 
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.junit.jupiter.api.MethodOrderer;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
-import static org.assertj.core.data.MapEntry.entry;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.transaction.annotation.Transactional;
 
-import static org.springframework.http.HttpHeaders.AUTHORIZATION;
-import static org.springframework.http.MediaType.APPLICATION_JSON;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-import java.util.List;
-import java.util.Map;
-
-import hexlet.code.utils.TestUtils;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 @ContextConfiguration(classes = AppApplication.class)
@@ -35,7 +21,7 @@ import hexlet.code.utils.TestUtils;
 @AutoConfigureMockMvc
 @Transactional
 public class UserTest {
-
+/*
     private static ObjectMapper mapper = new ObjectMapper();
     private static Map<String, Map> testData;
 
@@ -83,14 +69,13 @@ public class UserTest {
                 .andReturn()
                 .getResponse();
         var body = response.getContentAsString();
-/*
+
         assertThat(response.getStatus()).isEqualTo(200);
         assertDoesNotThrow(() -> mapper.readValue(body, List.class));
         for (Map<String, String> user : loadedUsers) {
             assertThat(body).contains(user.get("email"));
         }
 
- */
     }
 
     @Test
@@ -133,7 +118,7 @@ public class UserTest {
                 .getResponse();
         var body = response.getContentAsString();
 
-        /*
+
         assertThat(response.getStatus()).isEqualTo(200);
         var user = mapper.readValue(body, Map.class);
         assertThat(user).contains(entry("firstName", existingUserData.get("firstName")),
@@ -141,7 +126,7 @@ public class UserTest {
                 entry("email", existingUserData.get("email")));
         assertThat(user).containsKeys("id", "createdAt");
         assertThat(user).doesNotContainKeys("password");
-         */
+
     }
 
     @Test
@@ -164,7 +149,7 @@ public class UserTest {
                 .andReturn()
                 .getResponse();
         var body = response.getContentAsString();
-/*
+
         assertThat(response.getStatus()).isEqualTo(200);
         var updatedUser = mapper.readValue(body, Map.class);
         assertThat(updatedUser).contains(entry("firstName", newUserData.get("firstName")),
@@ -181,7 +166,7 @@ public class UserTest {
 
         assertThat(body).contains(newUserData.get("email"));
 
- */
+
     }
 
     @Test
@@ -201,7 +186,7 @@ public class UserTest {
                 .andReturn()
                 .getResponse();
         var body = response.getContentAsString();
-/*
+
         assertThat(response.getStatus()).isEqualTo(200);
 
         response = mockMvc
@@ -212,7 +197,9 @@ public class UserTest {
 
         assertThat(body).doesNotContain(existingUserData.get("email"));
 
- */
     }
+
+ */
+
 }
 
