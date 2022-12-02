@@ -2,7 +2,6 @@ HELP.md
 .gradle
 build/
 node
-fronted/build
 fronted/node-modules
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
