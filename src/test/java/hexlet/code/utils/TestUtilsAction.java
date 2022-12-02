@@ -15,7 +15,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 
 public class TestUtilsAction {
-    /*
+
     private static ObjectMapper mapper = new ObjectMapper();
 
     private static Path getFixturePath(String fileName) {
@@ -179,6 +179,4 @@ public class TestUtilsAction {
 
         return mapper.readValue(body, Map.class);
     }
-    */
 }
-

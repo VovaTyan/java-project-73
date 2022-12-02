@@ -1,6 +1,5 @@
 package hexlet.code.filter;
 
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import hexlet.code.component.JWTHelper;
 import hexlet.code.dto.LoginDto;

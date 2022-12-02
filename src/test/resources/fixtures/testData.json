@@ -3,10 +3,10 @@
   {
     "new":
     {
-      "email": "email",
-      "firstName": "firstName",
-      "lastName": "lastName",
-      "createdAt": "2021-12-20T12:45:17.173Z"
+      "email": "email@email.com",
+      "firstName": "fname",
+      "lastName": "lname",
+      "password": "pwd"
     },
     "existing":
     {
