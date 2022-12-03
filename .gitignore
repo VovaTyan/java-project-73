@@ -1,8 +1,8 @@
 HELP.md
 .gradle
 build/
-frontend/*
-!frontend/build
+frontend/node_modules
+frontend/build
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
